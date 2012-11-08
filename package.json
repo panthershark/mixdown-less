@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vast-eng/mixdown-geolocation.git"
+    "url": "git@github.com:tommydudebreaux/mixdown-less.git"
   },
   "keywords": [
     "less",
@@ -20,8 +20,7 @@
     "flatiron"
   ],
   "scripts": {
-    "test": "node tests/unit.js",
-    "start": "node server.js"
+    "test": "node tests/unit.js"
   },
   "dependencies": {
     "lodash": "0.9.1",
