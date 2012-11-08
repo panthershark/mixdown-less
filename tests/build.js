@@ -22,8 +22,6 @@ test("Test LESS build", function(t) {
 
 	.on('end', function(err, results) {
 		var css = results[results.length - 1];
-
-		debugger;
     	
     	t.ok(css.length > 0, "CSS should be greater than zero");
     	t.ok(/body{/.test(css), "Body class should exist and be compressed");
