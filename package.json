@@ -1,0 +1,37 @@
+{
+  "name": "mixdown-less",
+  "version": "0.1.0",
+  "description": "Mixdown plugin for LESS CSS.  Generates a pipeline that builds LESS and CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vast-eng/mixdown-geolocation.git"
+  },
+  "keywords": [
+    "less",
+    "mixdown",
+    "css",
+    "pipeline",
+    "node",
+    "broadway",
+    "flatiron"
+  ],
+  "scripts": {
+    "test": "node tests/unit.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "lodash": "0.9.1",
+    "node-pipeline": "*",
+    "less": "*"
+  },
+  "devDependencies": {
+    "tap": "*",
+    "broadway": "*"
+  },
+  "author": "Tommy Messbauer - Vast",
+  "license": "MIT"
+}
