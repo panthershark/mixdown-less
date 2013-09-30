@@ -1,6 +1,6 @@
 {
   "name": "mixdown-less",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mixdown plugin for LESS CSS.  Generates a pipeline that builds LESS and CSS.",
   "main": "index.js",
   "scripts": {
