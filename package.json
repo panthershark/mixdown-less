@@ -4,7 +4,7 @@
   "description": "Mixdown plugin for LESS CSS.  Generates a pipeline that builds LESS and CSS.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node tests/unit.js"
   },
   "repository": {
     "type": "git",
@@ -19,17 +19,14 @@
     "broadway",
     "flatiron"
   ],
-  "scripts": {
-    "test": "node tests/unit.js"
-  },
   "dependencies": {
-    "lodash": "0.9.1",
-    "node-pipeline": "*",
-    "less": "*"
+    "lodash": "~2.2.0",
+    "node-pipeline": "~0.5.2",
+    "less": "~1.4.2"
   },
   "devDependencies": {
-    "tap": "*",
-    "broadway": "*"
+    "tap": "~0.4.4",
+    "broadway": "~0.2.7"
   },
   "author": "Tommy Messbauer - Vast",
   "license": "MIT"
